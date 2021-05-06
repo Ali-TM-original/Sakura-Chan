@@ -15,8 +15,8 @@ class Suggest(commands.Cog):
         urls = re.findall('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*(),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+',msg.content.lower())  
         if urls:
             #imgUrl = 'https://image.thum.io/get/auth/' + auth + '/' + arg
-            imgUrl = f"https://image.thum.io/get/auth/17038-69yolo69sakura/{arg}"
-            #imgUrl = f"https://image.thum.io/get/auth/17041-15167-5210acccef7b9f84f455fe89088b7cfb{arg}"
+            imgUrl = f"LMAO NIBBA THAT MY API/{arg}"
+            #imgUrl = f"LOOOOL"
             lat = (round(self.bot.latency*1000, 2))
             em = discord.Embed(color=0xffcff1)
             em.set_image(url=imgUrl)
