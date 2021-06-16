@@ -2,4 +2,4 @@
 First Successful Discord Bot.
 # Discontinued
 
-Max guild reached: 58
+Max guild reached: 68
